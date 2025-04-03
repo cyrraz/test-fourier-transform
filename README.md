@@ -2,9 +2,9 @@
 
 A set of tests of the Fourier transform.
 
-# Setting up a development environment
+## Setting up a development environment
 
-## Nox
+### Nox
 
 The fastest way to start with development is to use `nox`.
 
