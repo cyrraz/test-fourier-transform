@@ -52,3 +52,6 @@ extend-select = [
   "UP",          # pyupgrade
   "YTT",         # flake8-2020
 ]
+ignore = [
+  "PLR2004",        # Magic value in comparison
+]

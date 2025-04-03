@@ -8,8 +8,8 @@ A set of tests of the Fourier transform.
 
 The fastest way to start with development is to use `nox`.
 
-`Nox` is an automation tool that helps manage and run development tasks such as testing and linting.  
-It is especially useful for ensuring your code works across different Python versions and adheres to the project's quality standards.  
+`Nox` is an automation tool that helps manage and run development tasks such as testing and linting.
+It is especially useful for ensuring your code works across different Python versions and adheres to the project's quality standards.
 `Nox` handles everything for you, including setting up a temporary virtual environment for each run.
 
 To set up `nox`:

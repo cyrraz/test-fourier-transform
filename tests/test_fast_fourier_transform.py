@@ -47,7 +47,7 @@ def test_fft_symmetry():
 
 
 def test_parseval():
-    """Test Parseval’s theorem: energy in time domain equals energy in frequency domain (scaled). Verifies energy conservation in FFT."""
+    """Test Parseval's theorem: energy in time domain equals energy in frequency domain (scaled). Verifies energy conservation in FFT."""
     x = np.random.rand(128)
     energy_time = np.sum(np.abs(x) ** 2)
     energy_freq = np.sum(np.abs(np.fft.fft(x)) ** 2) / len(x)

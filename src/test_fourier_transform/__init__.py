@@ -1,2 +1,6 @@
+import logging
+
+
 def main() -> None:
-    print("Hello from test-fourier-transform!")
+    logging.basicConfig(level=logging.INFO)
+    logging.info("Hello from test-fourier-transform!")
