@@ -2,6 +2,8 @@
 
 A set of tests of the Fourier transform.
 
+[![GitHub Actions Status: CI](https://github.com/cyrraz/test-fourier-transform/actions/workflows/ci.yaml/badge.svg)](https://github.com/cyrraz/test-fourier-transform/actions/workflows/ci.yaml?query=branch%3Amain)
+
 ## Setting up a development environment
 
 ### Nox
