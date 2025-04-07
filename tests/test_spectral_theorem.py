@@ -130,7 +130,8 @@ def test_similarity_preserves_symmetry():
 def test_only_zero_is_both_sym_and_antisym():
     """Only zero matrix is symmetric and anti-symmetric"""
     A = np.zeros((3, 3))
-    assert np.allclose(A, A.T) and np.allclose(A, -A)
+    assert np.allclose(A, A.T)
+    assert np.allclose(A, -A)
 
 
 def test_normal_matrices_not_vector_space():
