@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A set of tests of the Fourier transform"
 readme = "README.md"
 authors = [
-    { name = "cyrraz", email = "code.cyrraz@protonmail.com" }
+    { name = "cyrraz", email = "cyrraz.code@protonmail.com" }
 ]
 requires-python = ">=3.10"
 dependencies = [
