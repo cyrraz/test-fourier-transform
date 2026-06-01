@@ -31,7 +31,7 @@ repos:
         args: ["--pytest-test-first"]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.12
+    rev: v0.15.15
     hooks:
       - id: ruff
         args: ["--fix", "--show-fixes"]
@@ -51,7 +51,7 @@ repos:
         args: ["--verbose"]
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.20.2
+    rev: v2.1.0
     hooks:
       - id: mypy
         files: src
@@ -74,6 +74,6 @@ repos:
       - id: check-github-workflows
 
   - repo: https://github.com/henryiii/validate-pyproject-schema-store
-    rev: 2026.04.26
+    rev: 2026.05.28
     hooks:
       - id: validate-pyproject
